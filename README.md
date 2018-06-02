@@ -57,16 +57,16 @@ MD5             7463A998F3EE774A2A5EC6DBDA14AB5D                                
 MD5             121F34E1169133555592402766270712                                       C:\Windows\apppatch\en-US\AcR...<br />
 '''
 ###Issue
-'''
+'''<br />
 get-filehash : The file C:\Windows\bootstat.dat cannot be read: The process cannot access the file<br />
 C:\Windows\bootstat.dat because it is being used by another process.<br />
 At line:1 char:27<br />
 dir c:\Windows -Recurse | get-filehash -Algorithm MD5<br />
   CategoryInfo          : ReadError: (C:\Windows\bootstat.dat:PSObject) Write-Error, WriteErrorException<br />
   FullyQualifiedErrorId : FileReadError,Get-FileHash<br />
-'''
+'''<br />
 
-### License
+### License<br />
 The GNU GPLv3 is a copyleft license that requires anyone who distributes your code
 or a derivative work to make the source available under the same terms, and also 
 provides an express grant of patent rights from contributors to users.
